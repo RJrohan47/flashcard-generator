@@ -10,11 +10,10 @@ from utils import extract_pdf_text, generate_flashcards, parse_output
 # ---------------- CONFIG ----------------
 
 
-GEMINI_API_KEY = {key}
+GEMINI_API_KEY = "AIzaSyDsDXgzFvRcpBa-nd0iuK9honNZhGyCtRY"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
-DATABASE_URL = "postgresql://postgres:password@localhost:5432/flask_chatbot"
-
+DATABASE_URL = "postgresql://postgres:R%40jz4711@localhost:5432/flask_chatbot"
 
 
 # SQLAlchemy Setup
